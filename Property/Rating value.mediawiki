@@ -1,0 +1,9 @@
+[[has type::Number]]
+
+* [[Allows value::1]]
+* [[Allows value::2]]
+* [[Allows value::3]]
+* [[Allows value::4]]
+* [[Allows value::5]]
+
+[[Category:RatingsBook]]
