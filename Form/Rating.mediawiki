@@ -1,0 +1,23 @@
+<noinclude>
+This is the "Rating" form.
+{{#forminput:form=Rating}}
+
+</noinclude><includeonly>
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+{{{info|page name=Rating:<Rating[Subject]>/<Rating[User]>}}}
+{{{for template|Rating}}}
+{| class="formtable"
+!style="width: 120px" | Subject page id
+| {{{field|Subject|input type=text}}}
+|-
+!style="width: 120px" | Value
+| {{{field|Value|input type=dropdown|values=1,2,3,4,5|mandatory|default=1}}}
+|-
+!style="width: 120px" | User
+| {{{field|User|input type=text}}}
+|-
+|}
+{{{end template}}}
+
+{{{standard input|save}}} {{{standard input|cancel}}}
+__NOTOC____NOEDITSECTION__</includeonly><noinclude>[[Category:RatingsBook]]</noinclude>

@@ -1,0 +1,8 @@
+<includeonly><!--
+--><span class="rating-widget {{#ifeq:{{{1|}}}|readonly|rating-readonly}}" style="display: inline-flex;"><!--
+--><span>&nbsp;{{GetVotesCount|{{GetPageID|{{{2|}}}}}}} {{plural:{{GetVotesCount|{{GetPageID|{{{2|}}}}}}}|vote|votes}}&nbsp;</span><!--
+-->{{RatingWidgetAutoedit|5|{{GetAverageRating|{{GetPageID|{{{2|}}}}}}}}}{{RatingWidgetAutoedit|4|{{GetAverageRating|{{GetPageID|{{{2|}}}}}}}}}{{RatingWidgetAutoedit|3|{{GetAverageRating|{{GetPageID|{{{2|}}}}}}}}}{{RatingWidgetAutoedit|2|{{GetAverageRating|{{GetPageID|{{{2|}}}}}}}}}{{RatingWidgetAutoedit|1|{{GetAverageRating|{{GetPageID|{{{2|}}}}}}}}}</span><!--
+--><!--
+-->{{#ifeq:{{{1|}}}|readonly||{{#if:{{GetUserRating|{{GetPageID|{{{2|}}}}}|{{CURRENTUSER}}}}|<small>Your rating: {{GetUserRating|{{GetPageID|{{{2|}}}}}|{{CURRENTUSER}}}}</small>}}}}<!--
+--><!--
+--></includeonly><noinclude>[[Category:RatingsBook]]</noinclude>

@@ -1,0 +1,1 @@
+<includeonly>{{#ask: [[Rating subject::{{{1}}}]] [[Rating user::{{{2}}}]] |mainlabel=- |?Rating value=}}</includeonly><noinclude>[[Category:RatingsBook]]</noinclude>

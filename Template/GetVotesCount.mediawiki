@@ -1,0 +1,1 @@
+<includeonly>{{#ask: [[Rating subject::{{{1}}}]] |format=count}}</includeonly><noinclude>[[Category:RatingsBook]]</noinclude>

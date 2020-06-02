@@ -1,0 +1,6 @@
+<includeonly>{{#set:
+|Rating subject={{{Subject|}}}
+|Rating value={{{Value|}}}
+|Rating user={{{User|}}}
+}}This is an internal page used to store a rating for [[Special:Redirect/page/{{{Subject|}}}|this]] page.
+</includeonly><noinclude>[[Category:RatingsBook]]</noinclude>
