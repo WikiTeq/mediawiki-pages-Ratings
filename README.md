@@ -19,6 +19,9 @@ Contents
 * Template:GetVotesCount - fetches votes count
 * Template:GetPageID - utility, fetches page id
 * Form:Rating - processing form
+* Property:Rating subject - stores related rating page
+* Property:Rating user - stores user rated a page
+* Property:Rating value - stores rating value
 
 Setup
 -----
