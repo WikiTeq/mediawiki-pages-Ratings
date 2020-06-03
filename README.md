@@ -1,4 +1,4 @@
-Ratings Book
+Ratings
 ============
 
 Requirements
