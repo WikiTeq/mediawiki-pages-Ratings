@@ -1,1 +1,7 @@
-<includeonly>{{#autoedit:form=Rating|target=Rating:{{PAGEID}}/{{CURRENTUSER}}|link text=<span class="fa fa-star {{#ifeq:{{{2|}}}|{{{1}}}|checked}}" title="Rate {{{1}}} {{plural:{{{1}}}|star|stars}}"></span>|link type=text|query string=Rating[Value]={{{1}}}&Rating[Subject]={{PAGEID}}&Rating[User]={{CURRENTUSER}}|reload}}</includeonly><noinclude>[[Category:RatingsBook]]</noinclude>
+<includeonly><!--
+-->{{#ifeq:{{{3|}}}|readonly|<!--
+--><div class="fa fa-star {{#ifeq:{{{2|}}}|{{{1}}}|checked}}"></div><!--
+-->|<!--
+-->{{#autoedit:form=Rating|target=Rating:{{PAGEID}}/{{CURRENTUSER}}|link text=<span class="fa fa-star {{#ifeq:{{{2|}}}|{{{1}}}|checked}}" title="Rate {{{1}}} {{plural:{{{1}}}|star|stars}}"></span>|link type=text|query string=Rating[Value]={{{1}}}&Rating[Subject]={{PAGEID}}&Rating[User]={{CURRENTUSER}}|reload|returnto={{FULLPAGENAME}}}}<!--
+-->}}<!--
+--></includeonly><noinclude>[[Category:RatingsBook]] </noinclude>
