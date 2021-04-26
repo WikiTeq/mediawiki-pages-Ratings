@@ -1,1 +1,1 @@
-<includeonly>{{#expr: {{#ask: [[Rating subject::{{{1}}}]] |?Rating value |format=average }} round 0 }}</includeonly><noinclude>[[Category:RatingsBook]]</noinclude>
+<includeonly>{{#if:{{#ask: [[Rating subject::{{{1}}}]] |?Rating value |format=average }}|{{#expr: {{#ask: [[Rating subject::{{{1}}}]] |?Rating value |format=average }} round 0 }}|0}}</includeonly><noinclude>[[Category:RatingsBook]]</noinclude>
