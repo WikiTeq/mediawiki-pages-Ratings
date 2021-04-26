@@ -59,4 +59,11 @@ Properties stored are:
 * `Rating` - a number 1 to 5, the vote value
 * `User` - the username of the user voted
 
+The `RatingWidget` template has optional parameters:
+
+* `{{RatingWidget}}` - simply renders a voting widget for the current page on the current page
+* `{{RatingWidget|readonly}}` - renders a windget for the current page in a readonly mode ( eg.: if you need to display page rating within providing ability to vote )
+* `{{RatingWidget|readonly|AnotherPage}}` - same as above, but display the rating of `AnotherPage` title
+
 see `RatingExamples` page for details
+
