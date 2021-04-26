@@ -59,3 +59,4 @@ Properties stored are:
 * `Rating` - a number 1 to 5, the vote value
 * `User` - the username of the user voted
 
+see `RatingExamples` page for details
