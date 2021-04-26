@@ -23,12 +23,24 @@ Contents
 * Property:Rating user - stores user rated a page
 * Property:Rating value - stores rating value
 
-Setup
+Import via PagePort
 -----
 
-Import pages contents respectively to their namespaces, or use `GitExport` extension for easier importing:
+Import pages contents respectively to their namespaces, or use [PagePort](https://github.com/WikiTeq/PagePort) extension for easier importing:
 
 ```
-php extensions/GitExport/maintenance/importPages.php --source .
+php extensions/PagePort/maintenance/importPages.php --source .
 ```
+
+Import via PageExchange
+-----
+
+Import page contents as a package using [PageExchange](https://www.mediawiki.org/wiki/Extension:Page_Exchange) extension:
+
+* Make sure you have the PageExchange extension installed
+* Add the following line to the bottom of your `LocalSettings.php` file: `$wgPageExchangePackageFiles[] = 'https://raw.githubusercontent.com/WikiTeq/mediawiki-ratings/master/page-exchange.json';`
+* Navigate to `Special:Packages`
+* Hit `Install` on the package card
+* run `php maintenance/runJobs.php`
+
 
