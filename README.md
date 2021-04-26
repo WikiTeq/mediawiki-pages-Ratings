@@ -4,9 +4,10 @@ Ratings
 Requirements
 ------------
 
-* SemanticMediawiki
-* MyVariables
-* PageForms
+* [SemanticMediawiki](https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki)
+* [SemanticResultFormats](https://www.mediawiki.org/wiki/Extension:Semantic_Result_Formats)
+* [MyVariables](https://www.mediawiki.org/wiki/Extension:MyVariables)
+* [PageForms](https://www.mediawiki.org/wiki/Extension:Page_Forms)
 * [PagePort](https://github.com/WikiTeq/PagePort) or [PageExchange](https://www.mediawiki.org/wiki/Extension:Page_Exchange)
 
 Contents
@@ -46,4 +47,15 @@ Import page contents as a package using [PageExchange](https://www.mediawiki.org
 * Hit `Install` on the package card
 * run `php maintenance/runJobs.php`
 
+Usage example
+------
+
+The simplest use case is to add a `{{RatingWidget}}` template call to a page.
+This will render a 5 star rating widget allowing users to vote for the page rating.
+Once votes the template will create a `Rating:1234/USERNAME` page with vote information stored there.
+
+Properties stored are:
+* `Subject` - page the vote relates to
+* `Rating` - a number 1 to 5, the vote value
+* `User` - the username of the user voted
 
