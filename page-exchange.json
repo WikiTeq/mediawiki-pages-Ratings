@@ -1,0 +1,73 @@
+{
+    "publisher": "WikiTeq",
+    "author": "WikiTeq",
+    "language": "en",
+    "url": "https:\/\/github.com\/WikiTeq\/mediawiki-ratings",
+    "packages": {
+        "RatingsBook": {
+            "globalID": "RatingsBook",
+            "description": null,
+            "version": "1",
+            "pages": [
+                {
+                    "name": "Rating",
+                    "namespace": "PF_NS_FORM",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-ratings\/master\/Form%2FRating.mediawiki"
+                },
+                {
+                    "name": "Rating subject",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-ratings\/master\/Property%2FRating%20subject.mediawiki"
+                },
+                {
+                    "name": "Rating user",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-ratings\/master\/Property%2FRating%20user.mediawiki"
+                },
+                {
+                    "name": "Rating value",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-ratings\/master\/Property%2FRating%20value.mediawiki"
+                },
+                {
+                    "name": "GetAverageRating",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-ratings\/master\/Template%2FGetAverageRating.mediawiki"
+                },
+                {
+                    "name": "GetPageID",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-ratings\/master\/Template%2FGetPageID.mediawiki"
+                },
+                {
+                    "name": "GetUserRating",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-ratings\/master\/Template%2FGetUserRating.mediawiki"
+                },
+                {
+                    "name": "GetVotesCount",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-ratings\/master\/Template%2FGetVotesCount.mediawiki"
+                },
+                {
+                    "name": "Rating",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-ratings\/master\/Template%2FRating.mediawiki"
+                },
+                {
+                    "name": "RatingWidget",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-ratings\/master\/Template%2FRatingWidget.mediawiki"
+                },
+                {
+                    "name": "RatingWidgetAutoedit",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-ratings\/master\/Template%2FRatingWidgetAutoedit.mediawiki"
+                }
+            ],
+            "requiredExtensions": [
+                "PageForms"
+            ]
+        }
+    }
+}
