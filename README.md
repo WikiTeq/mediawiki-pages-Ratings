@@ -30,7 +30,9 @@ Import via PagePort
 Import pages contents respectively to their namespaces, or use [PagePort](https://github.com/WikiTeq/PagePort) extension for easier importing:
 
 ```
-php extensions/PagePort/maintenance/importPages.php --source .
+git clone https://github.com/WikiTeq/mediawiki-ratings.git ~/mediawiki-ratings
+cd /mediawiki
+php extensions/PagePort/maintenance/importPages.php --source ~/mediawiki-ratings
 ```
 
 Import via PageExchange
