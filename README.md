@@ -7,6 +7,7 @@ Requirements
 * SemanticMediawiki
 * MyVariables
 * PageForms
+* [PagePort](https://github.com/WikiTeq/PagePort) or [PageExchange](https://www.mediawiki.org/wiki/Extension:Page_Exchange)
 
 Contents
 --------
