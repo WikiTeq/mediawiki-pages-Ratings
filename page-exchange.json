@@ -71,7 +71,10 @@
                 }
             ],
             "requiredExtensions": [
-                "PageForms"
+                "PageForms",
+                "SemanticMediaWiki",
+                "SemanticResultFormats",
+                "MyVariables"
             ]
         }
     }
