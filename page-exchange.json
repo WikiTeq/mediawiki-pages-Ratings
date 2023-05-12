@@ -5,7 +5,7 @@
     "url": "https:\/\/github.com\/WikiTeq\/mediawiki-pages-Ratings",
     "packages": {
         "RatingsBook": {
-            "globalID": "RatingsBook",
+            "globalID": "com.wikiteq.RatingsBook",
             "description": null,
             "version": "1",
             "pages": [
